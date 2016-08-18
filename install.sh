@@ -1,5 +1,5 @@
-cp ./vimrc ~/.vimrc
+cp ./.vimrc ~/.vimrc
 rm -rf ~/.vim
 mkdir ~/.vim
-cp ./colors ~/.vim/colors
+cp -r ./colors ~/.vim/colors
 
